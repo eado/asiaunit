@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6, h7, h {
 .header ul li {
   display: inline;
   float: right;
+  height: 100%;
 }
 
 .header ul li a {
@@ -51,6 +52,7 @@ h1, h2, h3, h4, h5, h6, h7, h {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    vertical-align: middle;
 }
 
 .header ul li a:hover {
