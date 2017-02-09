@@ -83,6 +83,10 @@ h1, h2, h3, h4, h5, h6, h7, h {
     margin-left: 16px;
 }
 
+.header ul li.headertext a {
+  margin-top: 0px; 
+}
+
 .container {
     width: 90%;
     margin: 0 auto;
