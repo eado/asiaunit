@@ -38,6 +38,8 @@ h1, h2, h3, h4, h5, h6, h7, h {
     padding: 0;
     overflow: hidden;
     background-color: rgba(226, 216, 70, 0.8);
+    position: fixed;
+    width: 100%;
 }
 
 .header ul li {
@@ -53,14 +55,15 @@ h1, h2, h3, h4, h5, h6, h7, h {
     padding: 14px 16px;
     text-decoration: none;
     vertical-align: middle;
+    margin-top: 15px;
 }
 
 .header ul li a:hover {
-    background-color: black;
+    color: black;
 }
 
 .header ul li a:active {
-    background-color: black;
+    color: black;
 }
 
 .header ul li h1 {
