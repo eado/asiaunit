@@ -75,4 +75,5 @@ h1, h2, h3, h4, h5, h6, h7, h {
 
 .header ul li.headertext {
     float: left;
+    margin-left: 16px;
 }
