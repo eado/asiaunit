@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6, h7, h {
   float: right;
 }
 
-.header li a {
+.header ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -53,10 +53,21 @@ h1, h2, h3, h4, h5, h6, h7, h {
     text-decoration: none;
 }
 
-.header li a:hover {
+.header ul li a:hover {
     background-color: black;
 }
 
-.header li a:active {
+.header ul li a:active {
     background-color: black;
+}
+
+.header ul li h1 {
+    color: white;
+    display: block;
+    text-align: center:
+    padding: 14px 16px;
+}
+
+.header ul li.headertext {
+    float: left;
 }
