@@ -92,7 +92,8 @@ h1, h2, h3, h4, h5, h6, h7, h {
 .container {
     width: 90%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 120px;
+	padding-bottom: 85vh;
 }
 
 @media only screen and (max-width: 768px) {
@@ -131,6 +132,7 @@ h1, h2, h3, h4, h5, h6, h7, h {
 .text {
 	margin-top: 25vh;
 	border-radius: 20px;
+	margin-bottom: 50vh;
 }
 .row {
   margin-bottom: 100vh;
@@ -138,3 +140,4 @@ h1, h2, h3, h4, h5, h6, h7, h {
 .container {
   padding-bottom: 85vh;
 }
+
