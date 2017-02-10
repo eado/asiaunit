@@ -121,3 +121,20 @@ h1, h2, h3, h4, h5, h6, h7, h {
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
+
+.image {
+  height: 75vh;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.text {
+	margin-top: 25vh;
+	border-radius: 20px;
+}
+.row {
+  margin-bottom: 100vh;
+}
+.container {
+  padding-bottom: 85vh;
+}
