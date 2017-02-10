@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6, h7, h {
 [class*="col-"] {
     float: left;
     padding: 15px;
+	margin-right: 15px;
 }
 
 @media only screen and (max-width: 768px) {
