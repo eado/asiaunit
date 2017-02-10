@@ -16,7 +16,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes">
   </head>
+  <style>
+  .image {
+	  height: 75vh;
+	  width: 100%;
+	  object-fit: cover;
+	  border-radius: 20px;
+  }
+  .text {
+  	margin-top: 25vh;
+  	border-radius: 20px;
+  }
+  .row {
+	  margin-bottom: 100vh;
+  }
+  .container {
+	  padding-bottom: 85vh;
+  }
+  </style>
   <body>
+	<img class= "backgroundimage" src="images/temple.jpg" />
     <div class="header">
       <ul>
         <li class="headertext"><a href=""><h1>Asia through Experiences</h1></a></li>
@@ -28,9 +47,23 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <h2>Asia through Experiences</h2>
-          <p>A site that shows a learning experience about Asia through books, essays, and other fun activities!</p>
+        <div class="col-8">
+          	<img class="image" src="images/kimchi.jpg">
+        </div>
+		<div class="col-4 bgwhite text">
+			<h1>Hello!</h1>
+			<p>My name is Omar Elamri, and I am currently working on website. This website's purpose is to convey my learning about Asia through two books: "Year of Impossible Goodbyes" by Sook Nyul Choi and "So Far from the Bamboo Grove" by Yoko Kawashima Watkins, multiple essays, seminars, critical readings, projects on an Asian country of choice, and other fun activities (cooking asian food, watching asian movies, creative writing...).</p>
+		</div>
+      </div>
+      <div class="row">
+		<div class="col-4 bgwhite text">
+			<h1>The Books</h1>
+		</div>
+        <div class="col-4">
+          	<img class="image" src="images/yoig.jpg">
+        </div>
+        <div class="col-4">
+          	<img class="image" src="images/sfbg.jpg">
         </div>
       </div>
     </div>
