@@ -96,8 +96,24 @@ h1, h2, h3, h4, h5, h6, h7, h {
 .header ul li.headertext a {
     margin: 0;
     padding: 0;
-    z
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+.dropdown:hover .dropbtn {
+    display: block;
+}
+
+
 .container {
     width: 90%;
     margin: 0 auto;
