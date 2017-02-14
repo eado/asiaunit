@@ -94,6 +94,9 @@ h1, h2, h3, h4, h5, h6, h7, h {
     display: block;
     margin-top: 0 !important;
 }
+.dropdown-content a:hover {
+	background-color: #bac1c4;
+}
 
 /* Container */
 .container {
