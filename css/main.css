@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, h7, h {
 }
 @media only screen and (max-width: 768px) {
     .header ul li {
-        display: block;
+        display: block !important;
     }
     .header ul {
         height: 125px;
@@ -135,19 +135,20 @@ h1, h2, h3, h4, h5, h6, h7, h {
 }
 .bgwhite {
     background-color: white;
-	padding: 0px 15px;
+    padding: 0px 15px;
+    width: 100%;
 }
 .text {
     border-radius: 20px;
-	display: inline-block;
+    display: inline-block;
 }
 .upper {
-	display: flex;
+    display: flex;
 }
 .lower {
-	display: flex;
+    display: flex;
 }
 .row {
     margin-bottom: 40vh;
-	display: inline-block;
+    display: inline-block;
 }
