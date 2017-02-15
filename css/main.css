@@ -159,6 +159,7 @@ h1, h2, h3, h4, h5, h6, h7, h {
     height: 10vh;
     padding-top: 4vh;
     background-color: rgba(221, 36, 0, 0.9);
+    bottom: 0;
 }
 .footer p {
     color: white;
