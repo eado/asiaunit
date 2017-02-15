@@ -153,3 +153,15 @@ h1, h2, h3, h4, h5, h6, h7, h {
     display: inline-block;
     width: 100%;
 }
+
+/* Footer */
+footer {
+    height: 10vh;
+    bottom: 0;
+    padding: 0 5vh;
+    background-color: rgba(221, 36, 0, 0.9);
+}
+footer p {
+    margin-top: 4vh;
+    color: white;
+}
