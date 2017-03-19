@@ -133,6 +133,9 @@ h1, h2, h3, h4, h5, h6, h7, h {
     object-fit: cover;
     border-radius: 20px;
 }
+.noscale {
+	object-fit: contain;
+}
 .bgwhite {
     background-color: white;
     padding: 0px 15px;
